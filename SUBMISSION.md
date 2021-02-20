@@ -10,4 +10,15 @@ Name: Joe Zaksheske
 
 - The section of the POM file showing the coordinates after you’ve changed them.
 
+    ![initial pom change](images/initialpomchange.png)
+
+- Your Travis CI dashboard showing a successful build after your change of the group ID.
+
+    ![travis after pom change](images/travisbuild2.png)
+
+- The section of the POM file showing the coordinates after you’ve commented them out.
+
+    
+    
+
     
