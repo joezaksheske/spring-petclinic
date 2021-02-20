@@ -30,6 +30,12 @@ Name: Joe Zaksheske
 
 - The section of the POM file showing the coordinates after you’ve fixed them.
 
-    
+    ![fixed pom](images/fixedpom.png)
 
+- Your Travis CI dashboard showing the successful build after the breaking change has been fixed.
+
+    ![travis after fix](images/travisbuild4.png)
+
+- Your Github repository with the readme.md file selected showing the build success status after the Travis CI build has recovered.
     
+    ![github after fixing pom](images/githubfixedpom.png)
