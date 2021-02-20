@@ -18,7 +18,18 @@ Name: Joe Zaksheske
 
 - The section of the POM file showing the coordinates after you’ve commented them out.
 
-    
+    ![comment maven coordinates](images/commentmavencoord.png)
+
+- Your Travis CI dashboard showing the unsuccessful build after the breaking change.
+
+    ![travis failed build](images/travisbuild3.png)
+
+- Your Github repository with the readme.md file selected showing the build failed status after the Travis CI build fails.
+
+    ![github build failure](images/githubbuildfail.png)
+
+- The section of the POM file showing the coordinates after you’ve fixed them.
+
     
 
     
