@@ -1,41 +1,41 @@
 Name: Joe Zaksheske
 
-- Your Github account showing that is has been forked from the depaulcdm/spring-petclinic repository.
+- Your dockerfile. Please provide a link to this file rather than a screen capture.
 
-    ![github fork](images/joefork.png)
+    [Dockerfile](Dockerfile)
 
-- Your Travis CI dashboard showing a successful first build.
+- Your running docker instance as shown by a ps command.
 
-    ![travis first build](images/travisbuild1.png)
+    ![docker running](images/dockerps1.png)
 
-- The section of the POM file showing the coordinates after you’ve changed them.
+- Your browser accessing the main page of the website from your local container.
 
-    ![initial pom change](images/initialpomchange.png)
+    ![docker browser](images/dockerbrowser1.png)
 
-- Your Travis CI dashboard showing a successful build after your change of the group ID.
+- The output from the docker-compose up command.
 
-    ![travis after pom change](images/travisbuild2.png)
+    ![docker compose output](images/docker-compose1.png)
 
-- The section of the POM file showing the coordinates after you’ve commented them out.
+- Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
 
-    ![comment maven coordinates](images/commentmavencoord.png)
+    ![docker compose vets](images/docker-compose-vets.png)
 
-- Your Travis CI dashboard showing the unsuccessful build after the breaking change.
+- A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL.
 
-    ![travis failed build](images/travisbuild3.png)
+    ![stacktrace docker 1](images/stacktrace-compose.png)
 
-- Your Github repository with the readme.md file selected showing the build failed status after the Travis CI build fails.
+- our updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
 
-    ![github build failure](images/githubbuildfail.png)
+    [Docker Compose](docker-compose.yml)
 
-- The section of the POM file showing the coordinates after you’ve fixed them.
+- Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
 
-    ![fixed pom](images/fixedpom.png)
+    [application-mysql.properties](src/main/resources/application-mysql.properties)
 
-- Your Travis CI dashboard showing the successful build after the breaking change has been fixed.
+- The output from the docker-compose up command.
 
-    ![travis after fix](images/travisbuild4.png)
+    ![docker compose 2](images/docker-compose2.png)
 
-- Your Github repository with the readme.md file selected showing the build success status after the Travis CI build has recovered.
+- Your browser accessing the “Veterinarians” page of the website from your local container.
     
-    ![github after fixing pom](images/githubfixedpom.png)
+    ![browser vet2](images/browser-vet2.png)
